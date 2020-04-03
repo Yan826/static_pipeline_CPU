@@ -1,0 +1,400 @@
+
+*** Running vivado
+    with args -log IF_ID.vds -m64 -mode batch -messageDb vivado.pb -notrace -source IF_ID.tcl
+
+
+****** Vivado v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source IF_ID.tcl -notrace
+Command: synth_design -top IF_ID -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 16840 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 305.000 ; gain = 98.328
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'IF_ID' [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/sources_1/new/IF_ID.v:23]
+INFO: [Synth 8-638] synthesizing module 'inst_decoder' [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/sources_1/new/inst_decoder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'inst_decoder' (1#1) [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/sources_1/new/inst_decoder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'IF_ID' (2#1) [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/sources_1/new/IF_ID.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 342.410 ; gain = 135.738
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 342.410 ; gain = 135.738
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk_100'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:1]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:1]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'reset'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'atog[7]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'atog[6]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'atog[5]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'atog[4]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'atog[3]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'atog[2]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'atog[1]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'atog[0]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cs[7]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cs[6]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cs[5]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cs[4]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cs[3]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cs[2]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cs[1]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cs[0]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk_100'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'reset'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'atog[7]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'atog[6]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'atog[5]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'atog[4]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'atog[3]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'atog[2]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'atog[1]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'atog[0]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cs[7]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cs[6]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cs[5]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cs[4]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cs[3]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cs[2]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cs[1]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'seg_cs[0]'. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 622.965 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 622.965 ; gain = 416.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 622.965 ; gain = 416.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 622.965 ; gain = 416.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 622.965 ; gain = 416.293
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module IF_ID 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 622.965 ; gain = 416.293
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design IF_ID has unconnected port if_inst[31]
+WARNING: [Synth 8-3331] design IF_ID has unconnected port if_inst[30]
+WARNING: [Synth 8-3331] design IF_ID has unconnected port if_inst[29]
+WARNING: [Synth 8-3331] design IF_ID has unconnected port if_inst[28]
+WARNING: [Synth 8-3331] design IF_ID has unconnected port if_inst[27]
+WARNING: [Synth 8-3331] design IF_ID has unconnected port if_inst[26]
+WARNING: [Synth 8-3331] design IF_ID has unconnected port if_inst[15]
+WARNING: [Synth 8-3331] design IF_ID has unconnected port if_inst[14]
+WARNING: [Synth 8-3331] design IF_ID has unconnected port if_inst[13]
+WARNING: [Synth 8-3331] design IF_ID has unconnected port if_inst[12]
+WARNING: [Synth 8-3331] design IF_ID has unconnected port if_inst[11]
+WARNING: [Synth 8-3331] design IF_ID has unconnected port if_inst[10]
+WARNING: [Synth 8-3331] design IF_ID has unconnected port if_inst[9]
+WARNING: [Synth 8-3331] design IF_ID has unconnected port if_inst[8]
+WARNING: [Synth 8-3331] design IF_ID has unconnected port if_inst[7]
+WARNING: [Synth 8-3331] design IF_ID has unconnected port if_inst[6]
+WARNING: [Synth 8-3331] design IF_ID has unconnected port if_inst[5]
+WARNING: [Synth 8-3331] design IF_ID has unconnected port if_inst[4]
+WARNING: [Synth 8-3331] design IF_ID has unconnected port if_inst[3]
+WARNING: [Synth 8-3331] design IF_ID has unconnected port if_inst[2]
+WARNING: [Synth 8-3331] design IF_ID has unconnected port if_inst[1]
+WARNING: [Synth 8-3331] design IF_ID has unconnected port if_inst[0]
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 622.965 ; gain = 416.293
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 622.965 ; gain = 416.293
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 622.965 ; gain = 416.293
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:22 . Memory (MB): peak = 622.965 ; gain = 416.293
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:32 . Memory (MB): peak = 622.965 ; gain = 416.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:32 . Memory (MB): peak = 622.965 ; gain = 416.293
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:32 . Memory (MB): peak = 622.965 ; gain = 416.293
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:23 ; elapsed = 00:00:32 . Memory (MB): peak = 622.965 ; gain = 416.293
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:23 ; elapsed = 00:00:32 . Memory (MB): peak = 622.965 ; gain = 416.293
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:32 . Memory (MB): peak = 622.965 ; gain = 416.293
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:32 . Memory (MB): peak = 622.965 ; gain = 416.293
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:32 . Memory (MB): peak = 622.965 ; gain = 416.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:32 . Memory (MB): peak = 622.965 ; gain = 416.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:32 . Memory (MB): peak = 622.965 ; gain = 416.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:32 . Memory (MB): peak = 622.965 ; gain = 416.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT4 |     2|
+|2     |LUT6 |    15|
+|3     |IBUF |    28|
+|4     |OBUF |     1|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    46|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:32 . Memory (MB): peak = 622.965 ; gain = 416.293
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 22 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 622.965 ; gain = 115.246
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:32 . Memory (MB): peak = 622.965 ; gain = 416.293
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 28 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+15 Infos, 58 Warnings, 36 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 624.754 ; gain = 400.727
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 624.754 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 10 10:00:33 2019...

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Sun Nov 10 10:27:35 2019">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="d6d08459c91745c49c9ad9822f537984" type="ProjectID"/>
+<property name="ProjectIteration" value="2" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="30" type="JavaHandler"/>
+<property name="CloseProject" value="1" type="JavaHandler"/>
+<property name="CoreView" value="4" type="JavaHandler"/>
+<property name="CustomizeCore" value="2" type="JavaHandler"/>
+<property name="EditDelete" value="5" type="JavaHandler"/>
+<property name="OpenProject" value="1" type="JavaHandler"/>
+<property name="RecustomizeCore" value="2" type="JavaHandler"/>
+<property name="RunImplementation" value="1" type="JavaHandler"/>
+<property name="RunSynthesis" value="1" type="JavaHandler"/>
+<property name="ShowView" value="2" type="JavaHandler"/>
+<property name="SimulationRun" value="4" type="JavaHandler"/>
+<property name="ViewTaskImplementation" value="1" type="JavaHandler"/>
+<property name="ViewTaskProjectManager" value="2" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints], 7" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Coefficient Files], 12" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, IF_ID (IF_ID.v" value="8" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, LuiSlt (LUI_SLT.v" value="10" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, TOP (TOP.v" value="21" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources], 0" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Coefficient Files], 17" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, top_tb (top_tb.v" value="6" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 11" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 10" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 8" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager], 0, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager], 0, true, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Synthesis, synth_1, [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:1]. , [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:33]. ], 34, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Synthesis, synth_1, [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:1]. , [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:33]. ], 34, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Synthesis, synth_1, [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:1]. , [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:34]. ], 35, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Synthesis, synth_1, [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:1]. , [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:34]. ], 35, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Synthesis, synth_1, [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:1]. ], 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Synthesis, synth_1, [Common 17-55] 'set_property' expects at least one object. [C:/Download/static_pipline_CPU/static_pipline_CPU.srcs/constrs_1/new/xdc.xdc:1]. ], 2, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.RunGadget_SHOW_ERROR_AND_CRITICAL_WARNING_MESSAGES, 36 critical warnings" value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, Scalar ports (4" value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, exe_rf_waddr (5" value="3" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, exe_rf_waddr[4] ; IN ;  ; U16 ; false ; 14 ; LVCMOS33 ; 3.3 ;  ;  ;  ; NONE ; NONE ; , 2, LVCMOS33, 6, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, exe_rf_we ; IN ;  ; R17 ; false ; 14 ; default (LVCMOS18" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, id_rf_waddr (5" value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, id_rf_waddr[4] ; IN ;  ; T16 ; false ; 14 ; LVCMOS33 ; 3.3 ;  ;  ;  ; NONE ; NONE ; , 8, LVCMOS33, 6, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, id_rf_we ; IN ;  ; P17 ; false ; 14 ; PCI33_3 ; 3.3 ;  ;  ;  ; NONE ; NONE ; , 49, PCI33_3, 6, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, id_rf_we ; IN ;  ; P17 ; false ; 14 ; default (LVCMOS18" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, if_inst (32" value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, if_inst[31] ; IN ;  ;  ;  ;  ; LVCMOS33 ; 3.3 ;  ;  ;  ; NONE ; NONE ; , 14, LVCMOS33, 6, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, if_stop ; OUT ;  ; N15 ; false ; 14 ; default (LVCMOS18" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, mem_rf_waddr (5" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, mem_rf_we ; IN ;  ; N16 ; false ; 14 ; default (LVCMOS18" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, id_rf_waddr[4:0] ; ZZ ; Array, 2, id_rf_waddr[4:0], 0, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationScopesPanel_SIMULATION_SCOPES_TREE_TABLE, IF_ID ; IF_ID ; Verilog Module, 0" value="3" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="2" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, id_rf_waddr[4:0]], 2" value="2" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, mem_rf_waddr[4:0]], 6" value="2" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="100" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="86" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>
